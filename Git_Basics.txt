@@ -98,6 +98,9 @@ push files to branch:
 Note: push -u (sets upstrem so we can use git push only push code to origin main)
 > git push -u origin main 
 
+Git reset remote origin: 
+git remote set-url origin <-link->
+
 //Code for pushing already createed repo (owner). 
 > git add .
 > git commit -m "some message" 
@@ -126,7 +129,7 @@ Way1 :-
 > git merge <-branch name-> (to merge 2 branches)
 
 Way2: 
-Creat a PR (pull request)
+Create a PR (pull request)
 
 Pull Request: It lets you tell others about changes you've pushed to a branch in a repository on GitHub. 
 
@@ -172,6 +175,8 @@ list hidden files
 change director
 > cd filename (enters into filename folder)
 > cd .. (to come back)
+
+> mkdir <-folder name-> (creates new folder with specified name)
 
 //
 Reference: 
